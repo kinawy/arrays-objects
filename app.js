@@ -86,3 +86,19 @@ const insta = {
     }
 }
 console.log(insta)
+
+//insta post object
+
+let sentence = "I'm Cool";
+let sentence2 = 'I\'m cool too';
+console.log(sentence2);
+
+const fourthOfPost = {
+    username: 'sk'
+};
+
+fourthOfPost.picture = 'https://instagram.com';
+fourthOfPost['likes'] = 15;
+fourthOfPost.comments = ['ok...'];
+fourthOfPost.caption = 'writing code';
+console.log(fourthOfPost)
