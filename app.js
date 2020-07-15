@@ -101,4 +101,41 @@ fourthOfPost.picture = 'https://instagram.com';
 fourthOfPost['likes'] = 15;
 fourthOfPost.comments = ['ok...'];
 fourthOfPost.caption = 'writing code';
-console.log(fourthOfPost)
+console.log(fourthOfPost);
+
+
+// Functions//
+
+//Function Declaration ES5
+
+function sayHello() {
+    console.log('Hello');
+}
+
+// Function Expression ES6
+
+const sayHelloAgain = function () {
+    console.log('Hello Again');
+}
+
+// Arrow Function 
+const sayHiFinale = () => {
+    console.log('Hello for the last time');
+}
+
+const numbers = [1,2,3,4,5,6,7,8,9];
+const otherNumbers = [10,20,30,40,50,60,70,80,90];
+
+function printNumbers(array) {
+    for (let i = 0; i<array.length; i++) {
+        let num = array[i];
+        if (num < 50) {
+            console.log('This number is less than 50: ' + num);
+        } else {
+            console.log(`${num} is greater than 50`);
+        }
+    }
+}
+
+printNumbers(numbers);
+printNumbers(otherNumbers);
