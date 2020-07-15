@@ -48,3 +48,41 @@ for (let i = 0; i<favTeams.length; i++) {
     let eachTeam = favTeams[i];
     console.log(eachTeam);
 }
+
+//Objects referenced with the key: value pair, arrays with their index!!
+
+//Objects
+
+const sameh = {
+    fullName: 'Sameh Kinawy',
+    age:30,
+    home: 'Boston',
+    placesBeen: ['Egypt','Germany','Thailand']
+}
+
+sameh.alive = true;
+console.log(sameh);
+
+const insta = {
+    user: 'sameh',
+    password: '123',
+    personalInfo: {
+        name: 'sameh kinawy',
+        age: 30,
+        alive: true,
+        standing: true,
+        pets: {
+            fluffy:{
+                species: 'cat',
+                toes: 20,
+                fourLegs: true
+            },
+            sparky: {
+                species: 'dog',
+                toes: 21,
+                fourLegs: true
+            }
+        }
+    }
+}
+console.log(insta)
