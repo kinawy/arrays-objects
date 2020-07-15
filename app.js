@@ -32,6 +32,9 @@ let samehFave = 13;
 let goTo100 = 100;
 
 while (samehFave<goTo100) {
-    samehFave+=1;
+    samehFave+=1; //This is a counter that will take my fave up too 100
 }
 console.log(samehFave);
+
+
+// For Loops, extra practice
