@@ -139,3 +139,13 @@ function printNumbers(array) {
 
 printNumbers(numbers);
 printNumbers(otherNumbers);
+
+function addNumber (array) {
+    let result = 0;
+    for (let i =0; i<array.length; i++) {
+        let num = array[i];
+        result +=num;
+    }return result;
+    
+}
+console.log(addNumber(numbers));
